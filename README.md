@@ -9,7 +9,7 @@ make
 
 Launch bash shell within given filesystem with an inode limit:
 ```
-./main [INODE LIMIT] fs
+./main [INODE-LIMIT] fs
 ```
 
 ## Valid Operations File Commands
