@@ -396,7 +396,8 @@ void process_ui(char inodes_arr[], char* cur_dir, int inode_limit)
 
     while (run)
     {
-        char *command = get_command();
+	printf(">>> ");
+	char *command = get_command();
 
         if (strstr(command, "exit") != NULL)
         {
