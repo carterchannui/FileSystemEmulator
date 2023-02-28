@@ -1,4 +1,4 @@
-# Bash Shell
+# File System Emulator
 
 Utilize various operations and commands to navigate and alter a simulated filesystem.
 ## Usage
@@ -7,13 +7,13 @@ Compile files:
 make
 ```
 
-Launch bash shell within given filesystem with an inode limit:
+Launch the emulator within given filesystem with an inode limit:
 ```
 ./main [INODE-LIMIT] fs
 ```
 
 ## Valid Operations File Commands
-The following displays the bash shell's valid commands with proper syntax.
+The following displays the emulator's valid commands with proper syntax.
 ```
 // Change directory.
 cd [DIRECTORY]
